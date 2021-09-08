@@ -1,7 +1,7 @@
 h1, h2 {
     font-family: "Oswald" , sans-serif;
     }
- ul{
+ ul {
     list-style-type: none;
     margin: 0;
     }
@@ -11,28 +11,28 @@ li{
 #navbar a {
     margin-left: 75px
     }
- body{
+ body {
     color: darkblue;
     font-family: 'Open Sans' , sans-serif;
     margin: 10px 50px 10px 50px;
     width: 950px;
     background-color: ivory
     }
-img{
+img {
     float: left;
     margin-right: 10px;
     }
-.left{
+.left {
     float: right;
     width:300px;
     padding: 1em;
     }
-.right{
+.right {
     float: right;
     width: 300px;
     padding: 1em;
     }
-.center{
+.center {
     margin-left: 300px;
     margin-right: 300px;
     padding: 1em;
