@@ -1,0 +1,39 @@
+h1, h2 {
+    font-family:"Oswald" , sans-serif;
+    }
+ ul {
+    list-style-type:none;
+    margin: 0;
+    }
+li {
+    display:incline;
+    }
+#navbar a {
+    margin-left:75px
+    }
+ body {
+    color:yellow;
+    font-family:'Open Sans' , sans-serif;
+    margin:10px 50px 10px 50px;
+    width:950px;
+    background-color:black
+    }
+img {
+    float:left;
+    margin-right:10px;
+    }
+.left {
+    float:right;
+    width:300px;
+    padding:1em;
+    }
+.right {
+    float:right;
+    width:300px;
+    padding:1em;
+    }
+.center {
+    margin-left:300px;
+    margin-right:300px;
+    padding:1em;
+    }
