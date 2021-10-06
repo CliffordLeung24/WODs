@@ -77,8 +77,15 @@
                 <p><script>document.write(`${price5}`)</script></p>
                 <img id="image5_id"> <script>image5_id.src = image5 </script>
             </section>
+            
             <script>
-            document.write(eval("typeof name" + i) != 'undefined')
+                for(i= 1; i <=5; i++) {
+                    document.write(`<section class = "item">
+                        <h2>${eval('name' + i)}</h2>
+                        <p>${eval('price'+ i)}</p>
+                        <img src="${eval ('image' + i)}">      
+                        </section>`)
+                }        
             </script>
             
           
