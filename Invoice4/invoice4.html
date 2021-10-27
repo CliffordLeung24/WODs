@@ -2,37 +2,6 @@
 <script src="products_data.js"></script>
 <script>
     
-     //Compute extended prices
-    var extended_price1 = quantity1*price1;
-    var extended_price2 = quantity2*price2;
-    var extended_price3 = quantity3*price3;
-    var extended_price4 = quantity4*price4;
-    var extended_price5 = quantity5*price5;
-
-
-
-    //Compute sub-total
-    var subtotal = extended_price1 + extended_price2 + extended_price3 + extended_price4 + extended_price5;
-
-    //Compute Sales Tax
-    var tax_rate = 0.0575;
-    var tax =  tax_rate*subtotal;
-
-      //Compute Shipping
-      if(subtotal <=50) {
-      shipping = 2;
-    }
-    else if (subtotal <= 100) {
-      shipping=5;
-    }
-    else { 
-      shipping = .05*subtotal;
-    }
-
-    // Compute grand total
-    var total = subtotal + tax + shipping;
-
-
 </script>
 <script>
   var quantities = [1,2,3,4,5];
@@ -69,6 +38,38 @@ function isNonNegativeInteger(inputString, returnErrors = false) {
     if(parseInt(inputString) != inputString) errors.push('Not an integer!'); // Check that it is an integer
     return returnErrors ? errors : (errors.length == 0);
 }
+
+     //Compute extended prices
+     var extended_price1 = quantity1*price1;
+    var extended_price2 = quantity2*price2;
+    var extended_price3 = quantity3*price3;
+    var extended_price4 = quantity4*price4;
+    var extended_price5 = quantity5*price5;
+
+
+
+    //Compute sub-total
+    var subtotal = extended_price1 + extended_price2 + extended_price3 + extended_price4 + extended_price5;
+
+    //Compute Sales Tax
+    var tax_rate = 0.0575;
+    var tax =  tax_rate*subtotal;
+
+      //Compute Shipping
+      if(subtotal <=50) {
+      shipping = 2;
+    }
+    else if (subtotal <= 100) {
+      shipping=5;
+    }
+    else { 
+      shipping = .05*subtotal;
+    }
+
+    // Compute grand total
+    var total = subtotal + tax + shipping;
+
+
 </script>
 <!DOCTYPE html>
 <html lang="en">
