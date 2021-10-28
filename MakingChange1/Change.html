@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //amount of pennies
+       var amount = 75;
+
+       var quarters = parseInt(amount/25);
+
+       //leftover amount for dimes to continue on till we get exact amount
+       var leftover = amount%25;
+       var dimes = parseInt(leftover/10);
+
+       //left over amount for nickles
+       var leftover = amount%10;
+       var nickles = parseInt(leftover/5);
+
+       var pennies = amount%5;
+
+       document.write(`"quarters" ${quarters} "dimes" ${dimes} "nickles" ${nickles} "pennies"${pennies}`)
+    </script>
+
+
+</body>
+</html>
